@@ -28,4 +28,4 @@ project-root/
 ├── data/
 │   ├── Webis-CPC-11_1000_sample.json
 │   ├── wiki_test_corpus_full.json
-│   ├── x_full_data.csv
+│   ├── x_full_data.json
