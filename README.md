@@ -30,6 +30,7 @@ project-root/
 │   ├── wiki_test_corpus_full.json
 │   ├── x_full_data.json
 
+---
 ## 📄 File Descriptions
 
 | File | Description |
