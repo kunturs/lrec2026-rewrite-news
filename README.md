@@ -44,7 +44,22 @@ project-root/
 | `experiment_with_webis_paraphrase_corpus.ipynb` | Robustness evaluation on real-world paraphrases from noisy web sources. |
 | `preprocessing.ipynb` | Data preparation pipeline: article filtering, sentence segmentation, alignment prep, and cleaning. |
 ---
+## 📄 `x_full_data.json` Schema
 
+Each entry in `x_full_data.json` represents a sentence with metadata. Fields include:
+
+| Field | Description |
+|-------|-------------|
+| `sen_id` | Unique identifier for the sentence (UUID). |
+| `article_id` | ID of the source article. |
+| `seq_nr` | Sentence position in the article. |
+| `lang` | Language of the sentence (e.g., `en`, `sl`). |
+| `text` | Raw sentence text. |
+| `reused` | Binary reuse label (1 = reused in foreign article, 0 = not reused). |
+| `partner_id` | ID of the foreign article with reused content (if applicable). |
+| `partner_sentence_id` | ID of the matched sentence in the foreign article (if applicable). |
+
+---
 ## DISCLAIMER:
 
 The data provided is intended solely for research and academic purposes. Any use of this data for commercial purposes, including but not limited to marketing, product development, or resale, is strictly prohibited. By accessing or using this data, you agree to abide by these terms and acknowledge that any unauthorized commercial use may result in legal action.
