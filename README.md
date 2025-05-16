@@ -37,10 +37,14 @@ project-root/
 | File | Description |
 |------|-------------|
 | `x_full_data.json` | The core aligned dataset containing sentence-level reuse instances between XNA and foreign agencies. Includes language, article IDs, sentence indices, and reuse labels. |
-| `wiki_test_corpus_full.json` | A clean monolingual test set of Wikipedia article sentences used for evaluating paraphrase detection baselines. |
+| `wiki_test_corpus_full.json` | A clean multilingual test set of Wikipedia article sentences used for evaluating paraphrase detection baselines. |
 | `Webis-CPC-11_1000_sample.json` | A 1,000-example subset from the Webis Cross-lingual Paraphrase Corpus, used for benchmarking under noisy, multilingual conditions. |
-| `similarity_approach.ipynb` | Main notebook for computing similarity scores using embedding-based models like LASER, LaBSE, and Sentence-BERT. |
+| `similarity_approach.ipynb` | Main notebook for computing similarity scores using embedding-based model like Sentence-BERT. |
 | `experiment_with_wiki_corpus.ipynb` | Evaluation using high-quality Wikipedia data to establish baseline performance. |
 | `experiment_with_webis_paraphrase_corpus.ipynb` | Robustness evaluation on real-world paraphrases from noisy web sources. |
 | `preprocessing.ipynb` | Data preparation pipeline: article filtering, sentence segmentation, alignment prep, and cleaning. |
+---
 
+## DISCLAIMER:
+
+The data provided is intended solely for research and academic purposes. Any use of this data for commercial purposes, including but not limited to marketing, product development, or resale, is strictly prohibited. By accessing or using this data, you agree to abide by these terms and acknowledge that any unauthorized commercial use may result in legal action.
