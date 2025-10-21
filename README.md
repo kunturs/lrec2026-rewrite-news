@@ -1,6 +1,6 @@
 # Sentence-Level Text Reuse in Multilingual Journalism
 
-This repository accompanies a submission to EMNLP 2025 (under anonymity) that investigates sentence-level text reuse in multilingual newswire workflows. The study introduces a weakly supervised framework that detects content reuse between English-language articles from a national press organization, **X News Agency (XNA)**, and 15 **Foreign Agencies** in 7 languages.
+This repository accompanies a submission to LREC 2026 (under anonymity) that investigates sentence-level text reuse in multilingual newswire workflows. The study introduces a weakly supervised framework that detects content reuse between English-language articles from a national press organization, **X News Agency (XNA)**, and 15 **Foreign Agencies** in 7 languages.
 
 ---
 
