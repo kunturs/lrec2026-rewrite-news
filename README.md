@@ -1,6 +1,6 @@
 # Sentence-Level Text Reuse in Multilingual Journalism
 
-This repository accompanies a submission to LREC 2026 (under anonymity) that investigates sentence-level text reuse in multilingual newswire workflows. The study introduces a weakly supervised framework that detects content reuse between English-language articles from a national press organization, **X News Agency (XNA)**, and 15 **Foreign Agencies** in 7 languages.
+This repository accompanies a paper accepted to the SoCon-NLPSI 2026 workshop, co-located with LREC 2026. The work, titled “Rewrite the News: Tracing Editorial Reuse Across News Agencies,” investigates sentence-level text reuse in multilingual newswire workflows. It introduces a weakly supervised framework for detecting content reuse between English-language articles from the national press organization STA (Slovenian News Agency) and 15 Foreign Agencies across 7 languages.
 
 ---
 
