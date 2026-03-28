@@ -36,7 +36,7 @@ project-root/
 
 | File | Description |
 |------|-------------|
-| `x_full_data.json` | The core aligned dataset containing sentence-level reuse instances between XNA and foreign agencies. Includes language, article IDs, sentence indices, and reuse labels. |
+| `x_full_data.json` | The core aligned dataset containing sentence-level reuse instances between STA (Slovenian News Agency) and foreign agencies. Includes language, article IDs, sentence indices, and reuse labels. |
 | `wiki_test_corpus_full.json` | A clean multilingual test set of Wikipedia article sentences used for evaluating paraphrase detection baselines. |
 | `Webis-CPC-11_1000_sample.json` | A 1,000-example subset from the Webis Cross-lingual Paraphrase Corpus, used for benchmarking under noisy, multilingual conditions. |
 | `similarity_approach.ipynb` | Main notebook for computing similarity scores using embedding-based model like Sentence-BERT. |
